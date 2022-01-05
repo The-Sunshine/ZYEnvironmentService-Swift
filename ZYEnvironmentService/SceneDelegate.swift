@@ -26,7 +26,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         ZYEnvironmentService.addOtherServiceDisplayStringArray(array: ["other",
                                                                        ""])
 
-        print(ZYEnvironmentService.currentEnvironment().description)
+        print(ZYEnvironmentService.currentEnvironment().rawValue)
         print(ZYEnvironmentService.currentEnvironmentURLString())
 
     }
